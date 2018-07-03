@@ -1,9 +1,14 @@
+//felipe frade
+/*
+programa que lê um determinado número de personagens e diz qual o melhor baseado em uma média ponderada
+*/
+
 #include <iostream>
 
 int main(int argc, char *argv[]){
  
-	int i, num=101, vencedor;//num = numero total de indices do vetor, i = 0 at� num
-	char nomes[0+num] [15];//vetor com 0 + (4) variaveis, pois o vetor precisa come�ar com um valor conhecido
+	int i, num=101, vencedor;//num = numero total de indices do vetor, i = 0 até num
+	char nomes[0+num] [15];//vetor com 0 + (4) variaveis, pois o vetor precisa começar com um valor conhecido
 	float forca[num], defesa[num], velocidade[num], ficha,maior;
 	
 	while((num>100)||(num<1)){
